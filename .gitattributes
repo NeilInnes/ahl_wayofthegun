@@ -1,0 +1,8 @@
+# Protect binary files from line ending conversion
+*.rmf binary
+*.bsp binary
+*.wad binary
+*.zip binary
+*.wav binary
+*.tga binary
+*.jpg binary

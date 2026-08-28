@@ -1,0 +1,97 @@
+hlcsg v2.5.3 rel Custom Build 1.7 (Dec  9 2002)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (merlinis@bigpond.net.au)
+-----  BEGIN  hlcsg -----
+Command line: G:\ZHLT25~1\hlcsg.exe "g:\map saves\wayofthegun"-wadautodetect 
+Entering g:\map saves\wayofthegun.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       1 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 4194304 ] [ 4194304 ]
+priority              [  Normal ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [      on ] [      on ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+min surface area      [   0.500 ] [   0.500 ]
+brush union threshold [   0.000 ] [   0.000 ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+13 brushes (totalling 78 sides) discarded from clipping hulls
+CreateBrush:
+ (10.13 seconds)
+SetModelCenters:
+ (0.00 seconds)
+CSGBrush:
+ (2.79 seconds)
+
+Using Wadfile: \ahl\mapping\halflife.wad
+ - Contains 55 used textures, 61.11 percent of map (3116 textures in wad)
+Including Wadfile: \zhlt253-17\zhlt.wad
+ - Contains 1 used texture, 1.11 percent of map (3 textures in wad)
+Using Wadfile: \steam\steamapps\thrasheruk\half-life\action\bored.wad
+ - Contains 17 used textures, 18.89 percent of map (250 textures in wad)
+Using Wadfile: \steam\steamapps\thrasheruk\half-life\action\wayofthegun.wad
+ - Warning: Larger than expected texture (218412 bytes): 'REALSAND'
+ - Contains 17 used textures, 18.89 percent of map (17 textures in wad)
+
+added 2 additional animating textures.
+Texture usage is at 1.63 mb (of 4.00 mb MAX)
+13.93 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v2.5.3 rel Custom Build 1.7 (Dec  9 2002)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (merlinis@bigpond.net.au)
+-----  BEGIN  hlbsp -----
+Command line: G:\ZHLT25~1\hlbsp.exe "g:\map saves\wayofthegun"
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       1 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 4194304 ] [ 4194304 ]
+priority            [  Normal ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 4096)
+
+
+BSP generation successful, writing portal file 'g:\map saves\wayofthegun.prt'
+6.77 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
