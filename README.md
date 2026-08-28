@@ -32,6 +32,32 @@ Note: Contact information has been updated
 
 ![Overview](screenshots/overview.png?raw=true)
 
+
+---
+
+## 🚀 Installation & Playable Setup
+
+To install and play `ahl_wayofthegun` on a client or dedicated server:
+
+1. Download [`ahl_wayofthegun.zip`](https://github.com/NeilInnes/ahl_wayofthegun/raw/master/ahl_wayofthegun.zip)
+2. Extract the contents (`wayofthegun.wad` plus `gfx/`, `maps/` and `sound/` folders) directly into your Action Half-Life directory (`half-life/action/` or `steamapps/common/Half-Life/action/`).
+3. Launch Action Half-Life and load the map via the Start Server option or via the console:
+   ```sv
+   map ahl_wayofthegun
+   ```
+   
+---
+
+## 🪞Community & Mirrors
+
+You can find this map, leave reviews, or discuss it on the following platforms:
+
+[![](https://gamebanana.com/mods/embeddables/710760?type=large)](https://gamebanana.com/mods/710760)
+
+[![](https://button.moddb.com/download/medium/315428.png)](https://www.moddb.com/mods/action-half-life/addons/way-of-the-gun-ahl-wayofthegun)
+
+[![](https://img.shields.io/badge/TWHL-View_in_Vault-2a2a2a?style=for-the-badge)](https://twhl.info/vault/view/7246)
+
 ---
 
 ## 📁 Repository Structure
@@ -71,19 +97,6 @@ ahl_wayofthegun/
 
 * **Master Source File**: `source/wayofthegun.rmf` represents the final HL1 / GoldSrc build. 
 * **Texture Dependencies**: Re-compiling the map requires `halflife.wad`, `bored.wad` (by X-Tender), and `wayofthegun.wad`.
-
----
-
-## 🚀 Installation & Playable Setup
-
-To install and play `ahl_wayofthegun` on a client or dedicated server:
-
-1. Download [`ahl_wayofthegun.zip`](https://github.com/NeilInnes/ahl_wayofthegun/raw/master/ahl_wayofthegun.zip)
-2. Extract the contents (`wayofthegun.wad` plus `gfx/`, `maps/` and `sound/` folders) directly into your Action Half-Life directory (`half-life/action/` or `steamapps/common/Half-Life/action/`).
-3. Launch Action Half-Life and load the map via the Start Server option or via the console:
-   ```sv
-   map ahl_wayofthegun
-   ```
 
 ---
 
